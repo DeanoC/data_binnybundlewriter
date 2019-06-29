@@ -1,10 +1,8 @@
 #include "al2o3_platform/platform.h"
-#include "al2o3_memory/memory.h"
 #include "al2o3_tinystl/string.hpp"
-#include "al2o3_lz4/lz4.h"
+#include "data_bufferutils/lz4.h"
 #include "data_bufferutils/crc32c.h"
 #include "data_binnybundle/bundle.h"
-#include "data_binify/binify.h"
 #include "data_binify/writehelper.hpp"
 
 void InitHeader(Binify::WriteHelper &writer) {
